@@ -1,0 +1,79 @@
+/* Styles for HTML tags */
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    background-color: #AA336A;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+	border: 2px solid #AA336A;
+}
+
+div {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+ul, ol {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+footer {
+    background-color: #AA336A;
+    color: white;
+    text-align: center;
+    padding: 10px;
+	border-bottom: 2px solid white; 
+	border-top: 2px solid white; 
+}
+
+/* Styles for IDs */
+#aboutMe {
+	border: 2px solid #AA336A; 
+    background-color: #FFE4E1;
+	border: 2px dashed #000000;
+	
+}
+
+#myWork {
+	border: 2px dashed #000000; 
+    background-color: #fff;
+    margin-top: 20px;
+	background-color: #FDF5E6;
+}
+
+#helpfulLinks {
+	border: 2px dashed #000000; 
+    background-color: #fff;
+    margin-top: 20px;
+	background-color: #FFF0F5;
+}
+#trends {
+	border: 2px dashed #000000; 
+    background-color: #fff;
+    margin-top: 20px;
+	background-color: #E0FFFF;
+}
+
+/* Styles for class */
+.ist276 {
+    font-style: italic;
+	color: purple;
+}

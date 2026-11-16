@@ -1,0 +1,96 @@
+
+body { 
+   background-color:lightblue;
+ }
+
+header {
+  font-family: Georgia, serif;
+ }
+
+div {
+  font-family: Georgia, serif;
+ }
+
+ul {
+  list-style-type: square;
+ }
+
+li {
+  color:royalblue;
+ }
+
+a {
+  color:steelblue;
+  text-decoration: none;
+ }
+
+h1 {
+  color: white;
+  font-size:60px;
+ }
+
+h2 {
+  color: #000080;
+  font-size:30px;
+ }
+
+footer {
+  text-align: center;
+  color: white;
+}
+
+img {
+  border: 10px solid steelblue;
+  border-radius:4px;
+  padding: 5px;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width: 20%;
+  height: 40%;
+
+}
+
+.ist276 {
+  padding:60px;
+  text-align:center;
+  background-color: steelblue;
+  font-family: Georgia, serif;
+  border: 10px dotted black;
+ }
+
+
+
+#aboutMe {
+  background-color: white;
+  border: 2px solid black;
+  border-style: outset;
+  padding:20px;
+  margin-bottom: 15px;
+ }
+
+#myWork {
+   background-color:white;
+   border: 2px solid black;
+   border-style: outset;
+   padding:20px;
+   margin-bottom: 15px;
+ }
+
+#helpfulLinks {
+   background-color: white;
+   border: 2px solid black;
+   border-style: outset;
+   padding:20px;
+   margin-bottom: 15px;
+ }
+
+#trends {
+   background-color: white;
+   border: 2px solid black;
+   border-style: outset;
+   padding:20px;
+   margin-bottom: 15px;
+ }
+
+

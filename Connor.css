@@ -1,0 +1,67 @@
+body{
+    background-color: lightgrey;
+    text-align: center;
+
+}
+
+header{
+    overflow: hidden;
+    background-color: #B4B4B8;
+    padding: 20px 10px;
+}
+div{
+    border: 2px solid black;
+    margin: auto;  
+    padding: 20px;
+}
+ul{
+    text-align: center;
+    list-style-position: inside;
+    
+}
+li{
+    list-style-type: circle;
+    margin: 10px 0;
+
+}
+img{
+    width:354.8px;
+    height:543.9px;
+}
+a{
+    background-color: darkgray; 
+    color: white; 
+    padding: 5px 10px;
+}
+h1{
+    font-size: 50px;
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+    color: black;
+    text-align: center;
+}
+
+#aboutme{
+   background-color: #B4B4B8;
+   font-size: large;
+}
+#myWork{
+    background-color: #C7C8CC;
+}
+#helpfulLinks{
+    background-color: #E3E1D9;
+}
+#trends{
+    background-color: #F2EFE5;
+}
+
+
+.ist276{
+    text-align: center;
+    font-family: cursive;
+}

@@ -1,0 +1,66 @@
+body {
+  background-color:#FAE5D3;
+}
+
+h1 {
+	background-color: white;
+	color:#EC7063;
+	text-align: center;
+	border: 5px solid #F5B7B1;
+}
+	
+div {
+	font-size: 20px;
+	text-align:left;
+}
+
+.ist276 {
+  text-align: center;
+}
+
+.centered-image {
+    display: inline-block;
+    border: 5px solid #F5B7B1;
+}
+
+.fre {
+	color:white;
+}
+
+ol,ul {
+	background-color:#F5B7B1 ;
+	border: 5px solid white;
+}
+
+
+li {
+	color: white;
+	
+}
+
+a {
+	color: purple;
+}
+
+footer {
+	text-align: center;
+	color: black;
+	border: 2px solid white;
+	
+}
+
+#aboutMe {
+	text-align: center;
+	background-color:#F5B7B1;
+}
+
+#trends,#helpfulLinks,#myWork {
+	text-align: center;
+	background-color: white;
+	color:#EC7063;
+	text-align: center;
+	border: 5px solid #F5B7B1;
+	font-size:20px;
+}
+
+#s

@@ -1,0 +1,142 @@
+
+/* edit body */
+body {
+  background-color: #CFE0C3 !important;
+  color: #1F363D;
+  font-family: "Garamond", Times, serif;
+}
+
+/*edit header*/
+header {
+  text-align: center;
+  margin:0px;
+  padding:20px;
+  background-color:#BED5BA;
+  border-left-style: solid;
+  border-right-style:solid;
+  border-radius:5px;
+  border-color:#B7D1B3;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  text-shadow: 2px 2px 5px #1C3137;
+  box-shadow: 10px 10px 5px #B7D1B3;
+}
+
+h1{
+	color: #1F363D;
+	text-decoration-line: underline;
+}
+
+h3{
+	text-shadow: 2px 2px 5px #1C3137;
+}
+
+
+/*edit div*/
+div{
+	background-color:#9EC1A3;
+	padding:20px;
+	margin-left:100px;
+	margin-right:100px;
+	margin-top:50px;
+	margin-bottom:20px;
+	border-style: dotted;
+	border-radius:5px;
+}
+
+
+/*edit footer*/
+footer{
+	text-align: center;
+  color: #1F363D;
+  background-color:#40798C;
+  margin:0px;
+  padding:20px;
+  border-style:dotted;
+  border-color:#1F363D;
+  text-decoration-line: underline;
+  box-shadow: 10px 10px 5px #1F363D;
+
+}
+
+/*edit unordered lists*/
+ul {
+  list-style-type: square;
+}
+/*edit ordered lists*/
+ol {
+	list-style-type: square;
+}
+
+/*edit list colors*/
+li{
+  background: #CFE0C3;
+  padding: 20px;
+	margin:20px;
+}
+
+/*edit link color*/
+a:link {
+  color: purple;
+}
+
+/* visited link */
+a:visited {
+  color: #40798C;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+/* selected link */
+a:active {
+  color: #40798C;
+} 
+
+#aboutMe{
+	background-color: #B7D1B3;
+	text-align: center;
+	border-color: #9EC1A3;
+	border-left-style: solid;
+	border-right-style:solid;
+	  box-shadow: 10px 10px 5px #BED5BA;
+
+}
+
+#myWork{
+	background-color: #9EC1A3;
+	border-color: #87B5A2;
+	border-left-style: solid;
+	border-right-style:solid;
+	  box-shadow: 10px 10px 5px #B7D1B3;
+
+}
+
+#helpfulLinks{
+	background-color:#87B5A2;
+	border-color: #70A9A1;
+	border-left-style: solid;
+	border-right-style:solid;
+	  box-shadow: 10px 10px 5px #9EC1A3;
+
+}
+
+#trends{
+	background-color: #70A9A1;
+	border-color: #589197;
+	border-left-style: solid;
+	border-right-style:solid;
+	box-shadow: 10px 10px 5px #87B5A2;
+
+}
+
+.ist276{
+	color:white;
+	border-style: solid;
+	border-color: #1F363D;
+}
+

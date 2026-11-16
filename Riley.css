@@ -1,0 +1,64 @@
+body {
+    background-color: #F0F8FF;
+}
+h1 , h2{
+    color:  #0B5345 ;
+    text-align: center;
+    border: 8px solid #73C6B6 ;
+    background-color: #A2D9CE ;
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+  }
+ div { 
+         border: 8px solid #E8F6F3 ;
+         background-color: #D0ECE7 ;
+         padding-top: 20px;
+         padding-right: 50px;
+         padding-bottom: 20px;
+         padding-left: 50px;
+ 
+ }
+
+ ul {
+         text-align: center;
+         color: #0B5345;
+ }
+
+li {
+        margin: 10px 0;
+        list-style-position: inside;
+        list-style-type: circle;
+}
+
+a{
+        background-color: #117A65 ;
+        padding: 5px 10px;
+        color: white;
+}
+
+footer{
+        text-align: center;
+        color: #0B5345;
+}
+
+#AboutMe{
+   font-family: Verdana; 
+
+}
+
+#ClassWork{
+    font-family: Verdana; 
+}
+
+#HelpfulLinks{
+    font-family: Verdana; 
+}
+
+#CurrentTrends{
+    font-family: Verdana; 
+}
+.ist276{
+    font-family: Helvetica;
+}

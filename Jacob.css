@@ -1,0 +1,84 @@
+body {
+    background-color: maroon;
+}
+header {
+    background-color: grey;
+}
+div {
+    background-color: lightgrey;
+    padding: 2%;
+    border-style: solid;
+    border-color: grey;
+}
+ol {
+    color: black;
+}
+ul {
+    color: black;
+}
+li {
+    color: black;
+}
+a:link {
+    color: black;
+}
+a:visited {
+    color: maroon;
+}
+a:hover {
+    background-color: grey;
+}
+h1 {
+    color: black;
+    text-align: center;
+}
+h2 {
+    color: maroon;
+    text-align: center;
+}
+footer {
+    color: grey;
+}
+p {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+img {
+    border-style: solid;
+    border-color: grey;
+    width: 33%;
+}
+#aboutMe {
+    background-color: rgb(235, 169, 169);
+    padding: 2%;
+    border-style: solid;
+    border-color: grey;
+}
+#myWork {
+    background-color: rgb(186, 223, 175);
+    padding: 2%;
+    border-style: solid;
+    border-color: grey;
+}
+#helpfulLinks {
+    background-color: rgb(178, 179, 233);
+    padding: 2%;
+    border-style: solid;
+    border-color: grey;
+}
+#trends {
+    background-color: rgb(240, 241, 169);
+    padding: 2%;
+    border-style: solid;
+    border-color: grey;
+}
+.ist276 {
+    background-image: url("https://liberalarts.mercer.edu/wp-content/uploads/sites/5/2019/08/Robert-Allen-2019-web.jpg");
+    background-color: grey;
+    height: 100%;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
