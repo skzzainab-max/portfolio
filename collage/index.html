@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zainab's Henna Photo Collage</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <script>
+  // Function to generate random value between min and max (inclusive)
+  function randVal(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+  }
+
+  // Array of image names
+  var imageNames = [
+    "henna1","henna2","henna3","henna4","henna5","henna6","henna7","henna8","henna9","henna10","henna11","henna12","henna13"
+    // Add more image names here
+  ];
+
+  // Function to generate a random <div> with a random background image and random border color
+  function generateDiv() {
+    var div = document.createElement("div");
+    div.className = "image";
+    // Random border color
+    div.style.border = "5px solid rgb(" + randVal(0, 255) + "," + randVal(0, 255) + "," + randVal(0, 255) + ")";
+    // Select a random image name from the array
+    var randomImageName = imageNames[randVal(0, imageNames.length - 1)];
+    // Construct the image URL
+    var imageUrl = randomImageName + ".jpg"; // Assuming images are in JPG format
+    div.style.backgroundImage = "url('" + imageUrl + "')";
+    return div;
+  }
+
+  // Header section
+  var header = document.createElement("header");
+  header.innerHTML = "<h1>Henna Photo Collage by Zainab</h1>";
+  document.body.appendChild(header);
+
+  // Prompt user for number of pictures
+  var numPictures = parseInt(prompt("How many pictures should be placed into this collage?"));
+
+  // Generate random collage
+  var container = document.createElement("div");
+  container.className = "container";
+  document.body.appendChild(container);
+
+  for (var i = 0; i < numPictures; i++) {
+    container.appendChild(generateDiv());
+  }
+</script>
+</body>
+
+</html>
