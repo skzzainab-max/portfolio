@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finding a Life Partner</title>
+    <link rel="stylesheet" href="steps.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #FAE5D3;
+            text-align: center; /* Center align all content */
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+        header {
+            background-color: white;
+            color: #EC7063;
+            text-align: center;
+            border: 10px solid #F5B7B1;
+            border-radius: 10px; /* Add border radius to match header */
+            margin-bottom: 20px; /* Add some space below the header */
+        }
+        #steps-container {
+            display: flex;
+            margin: 20px;
+            text-align: center;
+        }
+        #buttons {
+            /* Remove display: block; */
+
+            border-radius: 10px;
+            padding: 10px; /* Add padding to match header */
+            border-radius: 10px; /* Add border radius to match header */
+            display: flex; /* Add display flex */
+            flex-direction: column; /* Stack buttons vertically */
+            width: 25%; /* Set width to 25% of the container */
+        }
+        button {
+            margin: 5px; /* Add some space between buttons */
+            background-color: white; /* Match header background color */
+            color: #EC7063; /* Match header text color */
+            border: 5px solid #F5B7B1;
+            padding: 10px 10px; /* Add padding to match header */
+            border-radius: 5px; /* Add border radius to match header */
+            cursor: pointer;
+            transition: background-color 0.3s ease; /* Add transition effect */
+            width: 100%; /* Make buttons take up full width of container */
+        }
+        button:hover {
+            background-color: #EC7063; /* Change background color on hover */
+            color: white; /* Change text color on hover */
+        }
+        .step {
+            width: 70%; /* Set width to 70% of the container */
+            padding: 10px;
+            border: 10px solid #F5B7B1;
+            border-radius: 10px;
+            margin: 10px;
+            text-align: center;
+            flex-grow: 1; /* Take up remaining space */
+        }
+        .step img {
+            max-width: 100%; /* Ensure image does not exceed container width */
+            height: auto; /* Maintain aspect ratio */
+            width: 50%; /* Set image width to 100% of container */
+            max-height: 500px; /* Limit maximum height */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Find Your Life Partner by Zainab Shaik</h1>
+        <p>Follow these steps to find your perfect match.</p>
+    </header>
+    <div id="steps-container">
+        <div id="buttons">
+            <button onclick="updateStep(0)">Step 1</button>
+            <button onclick="updateStep(1)">Step 2</button>
+            <button onclick="updateStep(2)">Step 3</button>
+            <button onclick="updateStep(3)">Step 4</button>
+            <button onclick="updateStep(4)">Step 5</button>
+        </div>
+        <div id="step-info" class="step">
+            <h2>Step Title</h2>
+            <img id="step-image" src="" alt="Step Image">
+            <p id="step-description">Step Description</p>
+        </div>
+    </div>
+    
+    <script>
+        // Arrays containing titles, picture names, and info for each step
+        var stepTitles = [
+            "Understand Yourself",
+            "Explore Opportunities",
+            "Build Connections",
+            "Define the Relationship",
+            "Commit to Growth"
+        ];
+        var stepImages = [
+            "step1.jpg",
+            "step2.jpg",
+            "step3.jpg",
+            "step4.jpg",
+            "step5.jpg"
+        ];
+        var stepInfo = [
+            "Take time to understand your own values, interests, and goals. Knowing yourself is essential to finding a compatible partner. Make a list of qualities and values you're looking for in a life partner. This will help you focus your search and recognize the right person when you meet them.",
+            "Put yourself out there by joining clubs, classes, or online dating platforms. Be open to meeting new people and experiencing different activities.",
+            "Develop meaningful connections with others by being genuine and open-minded. Don't be afraid to initiate conversations and express your interests.Go on dates with people that match with your preferences.",
+            "Make sure you and your partner are on the same page. Discuss your expectations for the relationship, such as exclusivity, commitment level, communication frequency, and future plans. Make sure both parties have a clear understanding of what each other wants and needs. If labels are important to either of you (e.g., boyfriend/girlfriend, partners), discuss whether you both feel comfortable using them and what they mean to each of you.",
+            "Choose to be with someone who supports your personal growth and encourages you to be the best version of yourself. A healthy relationship involves continuous learning and development. Continue to strengthen your relationship and build trust with your partner. Show them through your actions that you're committed to being a supportive and understanding partner. Include them in your future plans, including important events such as a significant wedding."
+        ];
+        
+        // Function to update step information based on the button clicked
+        function updateStep(index) {
+            document.getElementById("step-image").src = stepImages[index];
+            document.getElementById("step-description").innerText = stepInfo[index];
+            document.getElementById("step-info").querySelector("h2").innerText = stepTitles[index];
+        }
+        
+        // Initialize with the first step
+        updateStep(0);
+    </script>
+</body>
+</html>
+

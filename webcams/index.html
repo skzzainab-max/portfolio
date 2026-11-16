@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Railways Webcams by Zainab Shaik</title>
+    
+    <!-- CSS Styles -->
+    <style>
+        /* Body styling */
+        body {
+  			background-color:#FAE5D3;
+        }
+
+        /* Header styling */
+        header {
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        /* Title styling */
+		h1 {
+			background-color: white;
+			color:#EC7063;
+			text-align: center;
+			border: 5px solid #F5B7B1;
+		}
+        /* Controls styling */
+        #controls {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        button {
+            background-color: #F5B7b1;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            margin: 5px;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #EC7063;
+        }
+
+        /* Webcam container styling */
+        #webcam {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        /* Webcam title styling */
+        #webcamTitle {
+            color: #333;
+        }
+
+        /* Webcam feed styling */
+        #webcamFeed {
+            border: 3px solid #333;
+            border-radius: 10px;
+        }
+    </style>
+    
+    <!-- JavaScript -->
+    <script>
+        // Array of webcam titles
+        var webcamTitles = [
+            "Shiodome Railway Tracks Webcam",
+            "York Railway Station Webcam",
+            "Japan Railway Station Webcam",
+            "Dawlish Warren Railroad Webcam",
+            "Duoliang Train Station Webcam"
+        ];
+
+        // Array of webcam links
+        var webcamLinks = [
+            "https://www.youtube.com/embed/MWZpVfH58qc?si=2YMfv5Sw2KVZICbo",
+            "https://www.youtube.com/embed/vByZX49lCic?si=0H-oFnSgGEFiQIGr",
+            "https://www.youtube.com/embed/0cnORgQeKJ4?si=7eVvtAtSxWi54Rzq",
+            "https://www.youtube.com/embed/trAtJXMM66c?si=jdsHywogPCxpcKur",
+            "https://www.youtube.com/embed/UCG1aXVO8H8?si=mDrEx2x7Wnty_O_f"
+        ];
+
+        // Function to update webcam title and iframe src
+        function updateWebcam(index) {
+            var titleElement = document.getElementById("webcamTitle");
+            var feedElement = document.getElementById("webcamFeed");
+
+            titleElement.innerText = webcamTitles[index];
+            feedElement.src = webcamLinks[index];
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Zainab Shaik's Railway Webcams</h1>
+    </header>
+    <div id="controls">
+        <!-- Buttons for selecting webcam locations -->
+        <button onclick="updateWebcam(0)">Shiodome Railway</button>
+        <button onclick="updateWebcam(1)">York Railway</button>
+        <button onclick="updateWebcam(2)">Japan Railway</button>
+        <button onclick="updateWebcam(3)">Dawlish Warren Railroad</button>
+        <button onclick="updateWebcam(4)">Duoliang Train Station</button>
+    </div>
+    <div id="webcam">
+        <!-- Title and iframe for displaying live webcam feed -->
+        <h2 id="webcamTitle">Railways Webcam</h2>
+        <h3>Select a Button & Look at Railways!</h3>
+        <iframe id="webcamFeed" width="640" height="480" frameborder="0" allowfullscreen></iframe>
+    </div>
+</body>
+</html>
